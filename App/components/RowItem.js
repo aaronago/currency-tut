@@ -1,14 +1,14 @@
-import React from 'react';
-import { Text, TouchableOpacity, StyleSheet, View } from 'react-native';
-import colors from '../contants/colors';
+import React from "react";
+import { Text, TouchableOpacity, StyleSheet, View } from "react-native";
+import colors from "../constants/colors";
 
 const styles = StyleSheet.create({
   row: {
     paddingHorizontal: 20,
     paddingVertical: 16,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
   },
   text: {
     fontSize: 16,
